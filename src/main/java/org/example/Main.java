@@ -28,7 +28,7 @@ public class Main {
      */
     public static double safeDivision(double a, double b) {
         // todo: Handle the unchecked ArithmeticException by returning 0.
-        if(b == 0 ){
+        if(b == 0  || a == 0){
             return 0;
         }
 
